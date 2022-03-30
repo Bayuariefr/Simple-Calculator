@@ -4,17 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator Web_2</title>
+    <title>Online Calculator</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="container">
+        <h1> Online Calculator </h1>
+    </div>
+
     <div class="calculator">
-        <input type="text" class="calculator-screen" innerText="0" disabeld />
+        <input type="text" class="calculator-screen" value="0" disabeld />
         <div class="calculator-keys">
             <div class="row">
                 <button class="all-clear">AC</button>
-                <button class="percentage">%</button>
-                <button class="operator">&divide;</button>
+                <button class="operator" value="%">%</button>
+                <button class="operator" value="/">&divide;</button>
             </div>
             <div class="row">
                 <button class="number" value="7">7</button>
@@ -41,6 +48,11 @@
             </div>
         </div>
         <script type="text/javascript" src="script.js"></script>
+    </div>
+
+    <div class="footer">
+        <h1>계산기를 사용해 주셔서 정말 감사합니다</h1>
+        <p>"Thank you very much for using the calculator"</p>
     </div>
 </body>
 </html>
