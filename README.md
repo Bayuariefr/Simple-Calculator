@@ -1,4 +1,4 @@
-# bayuariefr.github.io
+# Simple-Calculator
 
 Hello, This is my first project to learning Javascript, i build simple calculator to understand javascript in Web Developer
 I wish I could make more project in Javascript.
